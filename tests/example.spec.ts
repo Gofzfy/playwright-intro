@@ -3,9 +3,9 @@ import { test, expect } from '@playwright/test';
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  const username = page.locator('#username');
-  const email = page.getByPlaceholder('Enter your email');
-  const btn = page.locator('#submit-order');
+  // const username = page.locator('#username');
+  // const email = page.getByPlaceholder('Enter your email');
+  // const btn = page.locator('#submit-order');
 
   // await username.fill('1234')
   // await email.fill('awsedkawodkwao@mail.wkqoe')
